@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function HomePage() {
   return (
     <section className="relative w-screen min-h-screen flex flex-col items-center justify-center text-center bg-[#FFC14D] pt-55 overflow-hidden">
@@ -9,9 +11,12 @@ export default function HomePage() {
           Koleksi buku terbaru dan terlengkap untuk menemani setiap perjalanan
           pengetahuanmu.
         </p>
-        <button className="mt-8 px-10 py-4 bg-white text-indigo-700 font-bold rounded-full shadow-lg hover:bg-indigo-100 hover:scale-105 transition duration-300">
+        <Link
+          to={"/product"}
+          className="mt-8 px-10 py-4 bg-white text-indigo-700 font-bold rounded-full shadow-lg hover:bg-indigo-100 hover:scale-105 transition duration-300"
+        >
           Lihat Koleksi
-        </button>
+        </Link>
       </div>
 
       <Summary />
