@@ -7,13 +7,13 @@ export default function HomePage() {
         <h1 className="text-3xl md:text-4xl lg:text-6xl  font-extrabold text-white leading-tight drop-shadow-lg">
           Temukan Buku Favoritmu dan Biarkan Setiap Halaman Membawa Cerita Baru
         </h1>
-        <p className="mt-6 text-lg md:text-xl text-white">
+        <p className="mt-6 mb-10 text-lg md:text-xl text-white">
           Koleksi buku terbaru dan terlengkap untuk menemani setiap perjalanan
           pengetahuanmu.
         </p>
         <Link
           to={"/product"}
-          className="mt-8 px-10 py-4 bg-white text-indigo-700 font-bold rounded-full shadow-lg hover:bg-indigo-100 hover:scale-105 transition duration-300"
+          className="px-10 py-4 bg-white text-indigo-700 font-bold rounded-full shadow-lg hover:bg-indigo-100 hover:scale-105 transition duration-300"
         >
           Lihat Koleksi
         </Link>
