@@ -29,7 +29,7 @@ export default function ProductPage() {
   };
 
   return (
-    <div className="p-6 bg-[#FFC14D]">
+    <section className="p-6 bg-[#FFC14D]">
       <h1 className="text-3xl font-bold mb-4 text-center">Daftar Buku</h1>
 
       <form onSubmit={handleSearch} className="mb-6 flex gap-2 justify-center">
@@ -102,6 +102,6 @@ export default function ProductPage() {
           Next
         </button>
       </div>
-    </div>
+    </section>
   );
 }
